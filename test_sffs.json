@@ -1,0 +1,28 @@
+{
+    "type": "FBD2",
+    "offset": "0x340000",
+    "size": "0x160000",
+    "erase_block": "0x8000",
+    "logic_block": "0x200",
+    "partiton": [
+        {
+            "plain_file": [
+                {
+                    "file": "js/lib/iot.js",
+                    "local_file": "js/lib/iot.js"
+                },
+                {
+                    "file": "js/lib/test.js",
+                    "local_file": "js/lib/test.js"
+                },
+                {
+                    "file": "js/test/keypad.js",
+                    "local_file": "js/test/keypad.js"
+                }
+            ],
+            "lzma_block_size": "0x8000",
+            "offset": "0",
+            "count": "0"
+        }
+    ]
+}
